@@ -1,0 +1,22 @@
+<div class="container">
+  <div id="scoreboard">Score: {{score}}</div>
+  <h2>{{question}}</h2>
+  {{#if options}}
+    <ul>
+      {{#each options}}
+        <li><button class="option-btn">{{this}}</button></li>
+      {{/each}}
+    </ul>
+  {{/if}}
+  {{#if images}}
+    <div>
+      {{#each images}}
+        <img src="{{this}}" class="img-thumbnail" alt="Option">
+      {{/each}}
+    </div>
+  {{/if}}
+  {{#if type "text"}}
+    <input type="text" id="text-answer" placeholder="Type your answer">
+    <button id="submit-answer" class="btn btn-success">Submit</button>
+  {{/if}}
+</div>

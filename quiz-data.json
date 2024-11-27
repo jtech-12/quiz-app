@@ -1,0 +1,30 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "JavaScript Basics",
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "What is the correct syntax to log to the console?",
+          "options": ["console.log()", "print()", "log()"],
+          "answer": "console.log()"
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "question": "What is the file extension for JavaScript?",
+          "answer": ".js"
+        },
+        {
+          "id": 3,
+          "type": "image",
+          "question": "Which image shows JavaScript code?",
+          "images": ["image1.jpg", "image2.jpg"],
+          "answer": "image1.jpg"
+        }
+      ]
+    }
+  ]
+}
